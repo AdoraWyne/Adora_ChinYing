@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs';
+import {AiFillLinkedin, AiFillGithub, AiFillTwitterCircle} from "react-icons/ai"
 import { Inter } from '@next/font/google' // might need to delete as we have our own fonts
 
 const inter = Inter({ subsets: ['latin'] }) // same as Inter
@@ -21,10 +22,18 @@ export default function Home() {
             <ul className="flex items-center">
               <li><BsFillMoonStarsFill className="cursor-pointer text-2xl" /></li>
               <li><a className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href='#'>Resume</a></li>
-              <li></li>
-              <li></li>
             </ul>
           </nav>
+          <div className="text-center p-10">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium">Adora Kong</h2>
+            <h3 className="text-2xl py-2">Developer and Programmer.</h3>
+            <p className="text-md py-5 leading-8 text-gray-800">Spicy jalapeno bacon ipsum dolor amet boudin ribeye hamburger pork corned beef fatback. Landjaeger tongue doner brisket, burgdoggen tenderloin turkey. Tail chicken jerky turducken tenderloin sirloin chuck shankle short ribs drumstick flank alcatra kevin.</p>
+          </div>
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+            <AiFillLinkedin />
+            <AiFillGithub />
+            <AiFillTwitterCircle />
+          </div>
         </section>
       </main>
     </>
