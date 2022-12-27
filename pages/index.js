@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import {BsFillMoonStarsFill} from 'react-icons/bs';
-import {AiFillLinkedin, AiFillGithub, AiFillTwitterCircle} from "react-icons/ai"
 import { Inter } from '@next/font/google' // might need to delete as we have our own fonts
 
 const inter = Inter({ subsets: ['latin'] }) // same as Inter
@@ -15,9 +13,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <div>
         <h1 className="">Hi mum</h1>
-      </main>
+      </div>
     </>
   )
 }
