@@ -57,7 +57,7 @@ const Navbar = () => {
         </div>
 
         <div className={navigation ? "md:hidden fixed right-0 top-0 w-full h-full backdrop-blur" : ""}>
-            <div className={navigation ? "fixed right-0 top-0 w-4/5 h-full bg-gradient-to-r from-themedPink to-themedOrange text-white p-10 ease-in duration-500" : "fixed right-[-100%] top-0 p-10 h-full ease-in duration-500"}>
+            <div className={navigation ? "fixed right-0 top-0 w-4/5 h-full bg-gradient-to-r from-themedPink to-themedPurple text-white p-10 ease-in duration-500" : "fixed right-[-100%] top-0 p-10 h-full ease-in duration-500"}>
                 <div>
                     <div className="flex w-full items-center justify-between">
                         <div 
