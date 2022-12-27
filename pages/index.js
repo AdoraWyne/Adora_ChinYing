@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
 
       <div>
-        <h1 className="">Hi mum</h1>
+        
       </div>
     </>
   )
