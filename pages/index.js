@@ -1,3 +1,5 @@
+import HomePage from "../components/HomePage"
+
 import Head from 'next/head'
 import { Inter } from '@next/font/google' // might need to delete as we have our own fonts
 
@@ -14,7 +16,7 @@ export default function Home() {
       </Head>
 
       <div>
-        
+        <HomePage />
       </div>
     </>
   )
