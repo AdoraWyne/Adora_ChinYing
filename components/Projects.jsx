@@ -41,12 +41,17 @@ const Projects = () => {
     return (
         <div id="projects" className="w-full">
             <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-                <h2 className="text-white text-3xl md:text-5xl tracking-wide font-bold">projects</h2>
-                <p className="text-white py-4 max-w-lg">Spicy jalapeno bacon ipsum dolor amet biltong capicola pastrami tenderloin, beef ribs spare ribs kielbasa pork bacon ribeye pork belly. Porchetta drumstick kielbasa alcatra. Meatloaf kielbasa biltong pancetta meatball ground round.</p>
+                <h2 className="text-white text-3xl md:text-5xl tracking-wide font-bold">
+                    projects
+                </h2>
+                <p className="text-white py-4">
+                    Spicy jalapeno bacon ipsum dolor amet biltong capicola pastrami tenderloin, beef ribs spare ribs kielbasa pork bacon ribeye pork belly. Porchetta drumstick kielbasa alcatra. Meatloaf kielbasa biltong pancetta meatball ground round.
+                </p>
+
                 <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
                     {projects.map(({id, title, imageSrc, url}) => (
                         <Link key={id} href={`/projects/${url}`}>
-                            <div className="cursor-pointer group shadow-md shadow-themedOrange overflow-hidden rounded-lg duration-200 hover:scale-110">
+                            <div className="cursor-pointer group shadow-md shadow-themedPurple overflow-hidden rounded-lg duration-200 hover:scale-110">
                                 <Image 
                                     src={imageSrc} 
                                     alt={title} 
