@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React, {useEffect, useState} from "react"
 import Link from "next/link"
 
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter} from "react-icons/fa"
@@ -31,7 +31,7 @@ const Navbar = () => {
     ]
 
     return ( 
-    <div className="w-full h-20 z-10 fixed bg-themedPink text-white duration-300 ease-in">
+    <div className="w-full h-14 z-10 p-5 fixed bg-themedPink text-white duration-300 ease-in">
         <div className="flex justify-between items-center w-full h-full max-w-screen-xl mx-auto p-4">
             <Link href='/#home'>
                 <h1 className="font-logo text-3xl lg:text-4xl font-bold tracking-wider">Adora</h1>
@@ -56,6 +56,7 @@ const Navbar = () => {
             </div>
         </div>
 
+        {/* Collapsed Menu Here */}
         <div className={navigation ? "md:hidden fixed right-0 top-0 w-full h-full bg-themedPink backdrop-blur" : ""}>
             <div className={navigation ? "fixed right-0 top-0 w-4/5 h-full bg-gradient-to-r from-themedPink to-themedPurple text-white p-10 ease-in duration-500" : "fixed right-[-100%] top-0 p-10 h-full ease-in duration-500"}>
                 <div>
@@ -66,7 +67,7 @@ const Navbar = () => {
                                 <FaTimes size={20} />
                         </div>
                         <Link href="/#home">
-                            <h2 className="font-logo text-3xl font-bold tracking-wider">Adora</h2>
+                            <h2 onClick={() => {setNavigation(false)}} className="font-logo text-3xl font-bold tracking-wider">Adora</h2>
                         </Link>
                     </div>
                 </div>
@@ -75,7 +76,7 @@ const Navbar = () => {
                         {links.map(({id, link}) => (
 
                             <Link key={id} href={`/#${link}`}>
-                                <li className="py-4 text-xl tracking-wider">{link}</li>
+                                <li onClick={() => {setNavigation(false)}} className="py-4 text-xl tracking-wider">{link}</li>
                             </Link>
                         ))}
                     </ul>

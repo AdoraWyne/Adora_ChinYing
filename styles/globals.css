@@ -6,6 +6,7 @@
 
 @layer base {
   html {
-    /* scroll-behavior: smooth; */ /* This will allow Next.js scroll smoothly */
+    font-family: sans-serif;
+    scroll-behavior: smooth !important;
   }
 }

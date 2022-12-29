@@ -51,7 +51,7 @@ const Projects = () => {
                 <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
                     {projects.map(({id, title, imageSrc, url}) => (
                         <Link key={id} href={`/projects/${url}`}>
-                            <div className="cursor-pointer group shadow-md shadow-themedPurple overflow-hidden rounded-lg duration-200 hover:scale-110">
+                            <div className="cursor-pointer group shadow-md shadow-fuchsia-400 overflow-hidden rounded-lg duration-200 hover:scale-110">
                                 <Image 
                                     src={imageSrc} 
                                     alt={title} 
