@@ -10,23 +10,28 @@ const Navbar = () => {
     const links = [
         {
             id: 1,
+            title: "home",
             link: "home"
         },
         {
             id: 2,
-            link: "about me"
+            title: "about me",
+            link: "aboutme"
         },
         {
             id: 3,
+            title: "skills",
             link: "skills"
         },
         {
             id: 4,
+            title: "projects",
             link: "projects"
         },
         {
             id: 5,
-            link: "get in touch"
+            title: "get in touch",
+            link: "getintouch"
         }
     ]
 
@@ -34,15 +39,15 @@ const Navbar = () => {
     <div className="w-full h-14 z-10 p-5 fixed bg-themedPink text-white duration-300 ease-in">
         <div className="flex justify-between items-center w-full h-full max-w-screen-xl mx-auto p-4">
             <Link href='/#home'>
-                <h1 className="font-logo text-3xl lg:text-4xl font-bold tracking-wider">Adora</h1>
+                <h1 className="font-logo text-3xl lg:text-4xl font-bold tracking-wider">Adora ...</h1>
             </Link>
 
             <div>
                 <ul className="hidden md:flex">
-                    {links.map(({id, link}) => (
+                    {links.map(({id, title, link}) => (
                             <Link key={id} href={`/#${link}`}>
                                 <li className="ml-10 text-md duration-200 ease-out hover:scale-110">
-                                    {link}
+                                    {title}
                                 </li>
                             </Link>
                         ))}

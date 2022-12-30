@@ -41,10 +41,10 @@ const Projects = () => {
     return (
         <div id="projects" className="w-full">
             <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-                <h2 className="text-white text-3xl md:text-5xl tracking-wide font-bold">
+                <h2 className="text-white font-logo text-3xl md:text-5xl tracking-wide font-bold">
                     projects
                 </h2>
-                <p className="text-white py-4">
+                <p className="text-white py-4 my-8">
                     Spicy jalapeno bacon ipsum dolor amet biltong capicola pastrami tenderloin, beef ribs spare ribs kielbasa pork bacon ribeye pork belly. Porchetta drumstick kielbasa alcatra. Meatloaf kielbasa biltong pancetta meatball ground round.
                 </p>
 
