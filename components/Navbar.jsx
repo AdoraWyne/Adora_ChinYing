@@ -72,16 +72,16 @@ const Navbar = () => {
                                 <FaTimes size={20} />
                         </div>
                         <Link href="/#home">
-                            <h2 onClick={() => {setNavigation(false)}} className="font-logo text-3xl font-bold tracking-wider">Adora</h2>
+                            <h2 onClick={() => {setNavigation(false)}} className="font-logo text-3xl font-bold tracking-wider">Adora ...</h2>
                         </Link>
                     </div>
                 </div>
                 <div className="mt-24 flex flex-col h-fit gap-20">
                     <ul>
-                        {links.map(({id, link}) => (
+                        {links.map(({id, title, link}) => (
 
                             <Link key={id} href={`/#${link}`}>
-                                <li onClick={() => {setNavigation(false)}} className="py-4 text-xl tracking-wider">{link}</li>
+                                <li onClick={() => {setNavigation(false)}} className="py-4 text-xl tracking-wider">{title}</li>
                             </Link>
                         ))}
                     </ul>
