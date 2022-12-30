@@ -2,6 +2,7 @@ import HomePage from "../components/HomePage"
 import Projects from "../components/Projects"
 import Skills from "../components/Skills"
 import AboutMe from "../components/AboutMe"
+import GetInTouch from "../components/GetInTouch"
 
 import Head from 'next/head'
 import { Inter } from '@next/font/google' // might need to delete as we have our own fonts
@@ -23,6 +24,7 @@ export default function Home() {
         <Skills />
         <Projects />
         <AboutMe />
+        <GetInTouch />
       </div>
     </>
   )
