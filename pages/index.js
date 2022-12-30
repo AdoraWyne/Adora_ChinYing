@@ -21,9 +21,9 @@ export default function Home() {
 
       <div className="bg-themedPink">
         <HomePage />
+        <AboutMe />
         <Skills />
         <Projects />
-        <AboutMe />
         <GetInTouch />
       </div>
     </>
