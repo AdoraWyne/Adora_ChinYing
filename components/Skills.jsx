@@ -102,11 +102,11 @@ const Skills = () => {
                     Spicy jalapeno bacon ipsum dolor amet biltong capicola pastrami tenderloin, beef ribs spare ribs kielbasa pork bacon ribeye pork belly. Porchetta drumstick kielbasa alcatra. Meatloaf kielbasa biltong pancetta meatball ground round.
                 </p>
 
-                <div className="grid lg:grid-cols-4 gap-8">
+                <div className="grid sm:grid-cols-4 gap-8">
                     {skills.map(({id, title, imageSrc}) => (
-                        <div key={id} className="flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-between p-6 shadow-lg shadow-fuchsia-400 rounded-xl hover:scale-105 ease-in duration-300">
+                        <div key={id} className="flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-between p-6 shadow-lightRounded bg-fuchsia-100 rounded-xl hover:scale-105 ease-in duration-300">
                             <Image src={imageSrc} width="64" height="64" alt={title} />
-                            <h3 className="text-white font-light">{title}</h3>
+                            <h3 className="">{title}</h3>
                         </div>
                     ))}
                 </div>
