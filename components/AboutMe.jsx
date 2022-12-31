@@ -37,9 +37,9 @@ const AboutMe = () => {
                 
                 <div className="flex items-center justify-center gap-10">
                     <Link href='/resume.pdf' download={true}>
-                    <div className="group flex items-center justify-center my-8 text-white px-6 py-3 font-bold border rounded-md hover:border-themedPurple hover:scale-110">
+                    <div className="group flex items-center justify-center my-8 text-white px-6 py-3 font-bold border rounded-md hover:border-themedPink hover:scale-110">
                         resume
-                        <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0"><MdExpandMore size={25} /></span>
+                        <span className="-rotate-90 duration-100 ease-in group-hover:translate-x-5"><MdExpandMore size={25} /></span>
                     </div>
                     </Link>
                 </div>
