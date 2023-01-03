@@ -24,20 +24,20 @@ const AboutMe = () => {
 
                     <div className="shadow-lightRounded my-8 px-8 rounded-lg bg-fuchsia-100">
                         <p className=" py-4 max-w-2xl mx-auto">
-                        Spicy jalapeno bacon ipsum dolor amet biltong capicola pastrami tenderloin, beef ribs spare ribs kielbasa pork bacon ribeye pork belly. Porchetta drumstick kielbasa alcatra. Meatloaf kielbasa biltong pancetta meatball ground round. Venison meatloaf meatball, tail flank frankfurter tenderloin kevin corned beef strip steak bacon drumstick.
+                            My past experience in insurance broking and customer service taught me to be an empathetic yet professional person and consider people’s needs from different angles. My move into Tech was driven by the desire to gain powerful and versatile skills to build anything in the virtual world that can impact people in real life, to make people’s lives easier and more convenient.
                         </p>
                         <p className=" py-4 max-w-2xl mx-auto">
-                        Spicy jalapeno bacon ipsum dolor amet biltong capicola pastrami tenderloin, beef ribs spare ribs kielbasa pork bacon ribeye pork belly. Porchetta drumstick kielbasa alcatra. Meatloaf kielbasa biltong pancetta meatball ground round. Venison meatloaf meatball, tail flank frankfurter tenderloin kevin corned beef strip steak bacon drumstick.
+                            My experience at General Assembly has given me a taste of the world of Software Engineering. I fell in love with breaking down the problems and solving them piece by piece.
                         </p>
                         <p className=" py-4 max-w-2xl mx-auto">
-                        Spicy jalapeno bacon ipsum dolor amet biltong capicola pastrami tenderloin, beef ribs spare ribs kielbasa pork bacon ribeye pork belly. Porchetta drumstick kielbasa alcatra. Meatloaf kielbasa biltong pancetta meatball ground round. Venison meatloaf meatball, tail flank frankfurter tenderloin kevin corned beef strip steak bacon drumstick.
+                            I&apos;m looking for an opportunity to be part of a like-minded organisation, with a great team culture, where I can constantly learn and grow. I always love to learn about other people&apos;s journeys. Please send me a message if you are up for a coffee chat!
                         </p>
                     </div>
                 </div>
                 
                 <div className="flex items-center justify-center gap-10">
                     <Link href='/resume.pdf' download={true}>
-                    <div className="group flex items-center justify-center my-8 text-white px-6 py-3 font-bold border rounded-md hover:border-themedPink hover:scale-110">
+                    <div className="group flex items-center justify-center my-8 bg-fuchsia-100 text-themedPink px-6 py-3 font-bold border rounded-md hover:border-themedPink hover:scale-110 shadow-lightRounded">
                         resume
                         <span className="-rotate-90 duration-100 ease-in group-hover:translate-x-5"><MdExpandMore size={25} /></span>
                     </div>
