@@ -41,17 +41,14 @@ const Projects = () => {
     return (
         <div id="projects" className="w-full">
             <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-                <h2 className="text-white font-logo text-3xl md:text-5xl tracking-wide font-bold">
+                <h2 className="text-white font-logo text-3xl md:text-5xl tracking-wide font-bold my-8">
                     projects
                 </h2>
-                <p className="text-white py-4 my-8">
-                    Spicy jalapeno bacon ipsum dolor amet biltong capicola pastrami tenderloin, beef ribs spare ribs kielbasa pork bacon ribeye pork belly. Porchetta drumstick kielbasa alcatra. Meatloaf kielbasa biltong pancetta meatball ground round.
-                </p>
 
                 {/* All the projects display */}
                 <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
                     {projects.map(({id, title, imageSrc, url}) => (
-                        <Link key={id} href={`/portfolio/${url}`} target="_blank    ">
+                        <Link key={id} href={`/projects/${url}`} target="_blank">
                             <div className="cursor-pointer group shadow-lightRounded bg-fuchsia-100 overflow-hidden rounded-lg duration-200 hover:scale-110">
                                 <Image 
                                     src={imageSrc} 
@@ -66,7 +63,7 @@ const Projects = () => {
                 {/* Button for all projects - not necessary */}
                 <div className="flex items-center justify-center">
                     <Link href='/projects'>
-                        <div className="group flex items-center justify-center my-8 text-white px-6 py-3 font-bold border rounded-md hover:border-themedPink hover:scale-110">
+                        <div className="group flex items-center justify-center my-8 text-themedPink px-6 py-3 font-bold border rounded-md bg-fuchsia-100 shadow-lightRounded hover:border-themedPink hover:scale-110">
                             all projects
                             <span className="-rotate-90 duration-100 ease-in group-hover:translate-x-5"><MdExpandMore size={25} /></span>
                         </div>
