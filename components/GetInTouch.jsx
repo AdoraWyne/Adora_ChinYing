@@ -13,7 +13,7 @@ const GetInTouch = () => {
                     get in touch
                 </h2>
 
-                <p className="py-5 text-white">I'm open to discuss any opportunities. Feel free to contact me and have a coffee chat!</p>
+                <p className="py-5 text-white"></p>
 
                 <div className="grid sm:grid-cols-4 gap-8">
                     <Link href="https://www.linkedin.com/in/adora-chinying-kong/" target="_blank">
