@@ -15,6 +15,7 @@ import tailwind from "../public/assets/skills/tailwindcss-240.png"
 import bootstrap from "../public/assets/skills/bootstrap-240.png"
 import mongodb from "../public/assets/skills/mongodb-240.png"
 import postgresql from "../public/assets/skills/postgresql-240.png"
+import restAPI from "../public/assets/skills/restAPI-64.png"
 
 
 const Skills = () => {
@@ -90,17 +91,22 @@ const Skills = () => {
             title: 'PostgreSQL',
             imageSrc: postgresql
         },
+        {
+            id: 15,
+            title: 'Restful API',
+            imageSrc: restAPI
+        },
     ]
 
     return (
         <div id="skills" className="w-full">
             <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-                <h2 className="text-white font-logo text-3xl md:text-5xl tracking-wide font-bold">
+                <h2 className="text-white font-logo text-3xl md:text-5xl tracking-wide font-bold my-8">
                     skills
                 </h2>
-                <p className="text-white py-4 my-8">
+                {/* <p className="text-white py-4 my-8">
                     Spicy jalapeno bacon ipsum dolor amet biltong capicola pastrami tenderloin, beef ribs spare ribs kielbasa pork bacon ribeye pork belly. Porchetta drumstick kielbasa alcatra. Meatloaf kielbasa biltong pancetta meatball ground round.
-                </p>
+                </p> */}
 
                 <div className="grid sm:grid-cols-4 gap-8">
                     {skills.map(({id, title, imageSrc}) => (
