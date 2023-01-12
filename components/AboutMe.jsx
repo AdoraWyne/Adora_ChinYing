@@ -24,13 +24,13 @@ const AboutMe = () => {
 
                     <div className="shadow-lightRounded my-8 px-8 rounded-lg bg-fuchsia-100">
                         <p className=" py-4 max-w-2xl mx-auto">
-                            My past experience in insurance broking and customer service taught me to be an empathetic yet professional person and consider people’s needs from different angles. My move into Tech was driven by the desire to gain powerful and versatile skills to build anything in the virtual world that can impact people in real life, to make people’s lives easier and more convenient.
-                        </p>
-                        <p className=" py-4 max-w-2xl mx-auto">
-                            My experience at General Assembly has given me a taste of the world of Software Engineering. I fell in love with breaking down the problems and solving them piece by piece.
-                        </p>
-                        <p className=" py-4 max-w-2xl mx-auto">
-                            I&apos;m looking for an opportunity to be part of a like-minded organisation, with a great team culture, where I can constantly learn and grow. I always love to learn about other people&apos;s journeys. Please send me a message if you are up for a coffee chat!
+                        Hi there! This is Adora (or Chin Ying). I’m a software engineer based in Melbourne and recently completed Immersive Software Engineering course from GA. 
+                        <br />
+                        Before started my coding journey, I worked as an insurance broker which essentially provides professional service to clients to solve their insurance needs. However, I always feel like I could do more and help more people rather than businesses. My past experience in customer service also taught me to be an empathetic person and consider people’s needs from different angles.
+                        <br />
+                        My experience at General Assembly has given me a taste of the world of Software Engineering. I discovered a new side of me who fall in love in problem solving and crunching codes at nights. 
+                        <br />    
+                        It also helps me to gain this powerful & versatile skills to build anything in the virtual world that can impact people in real life, to make people’s lives easier and more convenient. And that makes me happy!
                         </p>
                     </div>
                 </div>
