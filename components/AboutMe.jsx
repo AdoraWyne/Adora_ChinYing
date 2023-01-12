@@ -26,9 +26,12 @@ const AboutMe = () => {
                         <p className=" py-4 max-w-2xl mx-auto">
                         Hi there! This is Adora (or Chin Ying). I’m a software engineer based in Melbourne and recently completed Immersive Software Engineering course from GA. 
                         <br />
+                        <br />    
                         Before started my coding journey, I worked as an insurance broker which essentially provides professional service to clients to solve their insurance needs. However, I always feel like I could do more and help more people rather than businesses. My past experience in customer service also taught me to be an empathetic person and consider people’s needs from different angles.
                         <br />
+                        <br />
                         My experience at General Assembly has given me a taste of the world of Software Engineering. I discovered a new side of me who fall in love in problem solving and crunching codes at nights. 
+                        <br />    
                         <br />    
                         It also helps me to gain this powerful & versatile skills to build anything in the virtual world that can impact people in real life, to make people’s lives easier and more convenient. And that makes me happy!
                         </p>
