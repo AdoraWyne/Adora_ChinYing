@@ -36,11 +36,11 @@ const Skills = () => {
             title: 'Javascript',
             imageSrc: javascript
         },
-        {
-            id: 4,
-            title: 'Typescript',
-            imageSrc: typescript
-        },
+        // {
+        //     id: 4,
+        //     title: 'Typescript',
+        //     imageSrc: typescript
+        // },
         {
             id: 5,
             title: 'Python',
@@ -76,11 +76,11 @@ const Skills = () => {
             title: 'React',
             imageSrc: reactLogo
         },
-        {
-            id: 12,
-            title: 'Next',
-            imageSrc: next
-        },
+        // {
+        //     id: 12,
+        //     title: 'Next',
+        //     imageSrc: next
+        // },
         {
             id: 13,
             title: 'MongoDB',
