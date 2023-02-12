@@ -30,7 +30,7 @@ const GetInTouch = () => {
                         </div>
                     </Link>
 
-                    <Link href="https://twitter.com/CodeYing" target="_blank">
+                    <Link href="https://twitter.com/adoraflowerbeee" target="_blank">
                         <div className="text-themedPink flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-around p-6 shadow-lightRounded bg-fuchsia-100 rounded-xl hover:scale-105 ease-in duration-300">
                             <FaTwitter size={35} />
                             <h3>Twitter</h3>
